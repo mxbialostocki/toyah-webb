@@ -10,6 +10,16 @@
     "start": "webpack && node server",
     "test": "jest --watchAll"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mxbialostocki/toyah-webb.git"
@@ -27,8 +37,10 @@
   },
   "homepage": "https://github.com/mxbialostocki/toyah-webb#readme",
   "dependencies": {
+    "express": "^4.17.0",
     "nodemon": "^1.19.0",
     "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0"
   },
