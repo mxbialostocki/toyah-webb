@@ -1,9 +1,11 @@
 import React from 'react'
 
-function KillkistKreydy () {
-  return (
-    <h2>renders KillKist Kreydy</h2>
-  )
+class KillkistKreydy extends React.Component {
+  render () {
+    return (
+      <h2>renders killkist kreydy</h2>
+    )
+  }
 }
 
 export default KillkistKreydy

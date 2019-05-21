@@ -1,20 +1,18 @@
 import React from 'react'
-import { Router, Route, Switch } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 import Main from './Main'
 import KillkistKreydy from './KillkistKreydy'
-import RaggedRobin from './RaggedRobbin'
+import RaggedRobin from './RaggedRobin'
 
 function App () {
   return (
     <React.Fragment>
-      <Router>
-        <Switch>
-          <Route exact path='/' component={Main} />
-          <Route exact path='/killkistkreydy' component={KillkistKreydy} />
-          <Route exact path='/raggedrobin' component={RaggedRobin} />
-        </Switch>
-      </Router>
+      <Switch>
+        <Route exact path='/' component={Main} />
+        <Route exact path='/killkistkreydy' component={KillkistKreydy} />
+        <Route exact path='/raggedrobin' component={RaggedRobin} />
+      </Switch>
     </React.Fragment>
   )
 }
