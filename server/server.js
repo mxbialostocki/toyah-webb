@@ -10,8 +10,8 @@ server.use(express.json())
 
 server.use('/v1/routes', routes)
 
-server.get('*', (req, res) => {
-  res.redirect('/')
-})
+// server.get('*', (req, res) => {
+//   res.redirect('/')
+// })
 
 module.exports = server

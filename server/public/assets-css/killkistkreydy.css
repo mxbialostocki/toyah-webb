@@ -1,0 +1,99 @@
+/* this code by @mxbialostocki // www.mattbialostocki.com */
+/* killkist kreydy by the priestess of the outer church */
+html {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 7.5px;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(80, 255, 255, 1);
+}
+@font-face {
+  font-family: 'Roboto Mono', monospace;
+  src: url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&amp;subset=cyrillic")
+}
+#fnaudio {
+  padding: 40px;
+}
+.entry-frames {
+  color: lightblue;
+  margin: auto 0px;
+  height: 70%;
+  width: 30%;
+}
+.priestesshaslanded {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding: 50px;
+  color: rgba(0, 0, 0, .5);
+  background-color: black;
+  position: fixed;
+  width: 40rem;
+  height: 15rem;
+}
+section.priestesshaslanded:active {
+  display: none;
+}
+.killkistbody {
+  line-height: 1.5rem;
+  position: relative;
+}
+.kkbody {
+  display: flex;
+  max-width: 100%;
+  padding: 20px;
+}
+.kkphrase {
+
+}
+/* ////  textual  //// */
+h1 {
+  font-size: 7rem;
+  color: rgba(255, 255, 255, 1);
+}
+#fuckeries {
+  padding: 40px;
+  font-size: 8rem;
+  display: none;
+}
+h4 {
+  justify-content: space-between;
+  text-align: justify;
+  letter-spacing: 1.1rem;
+  font-weight: 700;
+}
+/* <span id="edgeblckl"></span> */
+#edgeblckl {
+  color: rgba(0, 0, 0, 1);
+}
+/* <span class="kreydy"></span> */
+.kreydy {
+  color: rgba(255, 255, 255, .95);
+}
+
+@keyframes textColorChange {
+    0% {color: rgba(80, 255, 255, 1);}
+    50% {color: rgba(255, 255, 255, 1);}
+    100% {color: rgba(80, 255, 255, 1);}
+}
+/* Use @-webkit-keyframes for Safari/Chrome */
+
+.throb2511 {
+    animation: textColorChange 2511ms infinite;
+}
+.throb3232 {
+    animation: textColorChange 3232ms infinite;
+}
+.throb4321 {
+    animation: textColorChange 4321ms infinite;
+}
+.kreydyhov {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+/* Use -webkit-animation for Safari/Chrome */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
