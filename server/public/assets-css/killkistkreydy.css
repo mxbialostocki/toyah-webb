@@ -13,12 +13,7 @@ html {
 #fnaudio {
   padding: 40px;
 }
-.entry-frames {
-  color: lightblue;
-  margin: auto 0px;
-  height: 70%;
-  width: 30%;
-}
+
 .priestesshaslanded {
   display: flex;
   justify-content: center;
@@ -43,9 +38,6 @@ section.priestesshaslanded:active {
   max-width: 100%;
   padding: 20px;
 }
-.kkphrase {
-
-}
 /* ////  textual  //// */
 h1 {
   font-size: 7rem;
@@ -56,7 +48,7 @@ h1 {
   font-size: 8rem;
   display: none;
 }
-h4 {
+.kkbody p {
   justify-content: space-between;
   text-align: justify;
   letter-spacing: 1.1rem;
