@@ -1,6 +1,27 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 7.5pt;
+}
+html {
+  background-color: rgba(0, 0, 0, 1);
+}
+@font-face {
+  font-family: 'Roboto Mono', monospace;
+  src: url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&amp;subset=cyrillic")
+}
+h1 {
+  font-family: 'Roboto Mono', monospace;
+}
+.main-container {
+  width: 1080px;
+  height: 720px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+}
 .entry-frames {
-  color: lightblue;
+  background-color: lightblue;
   margin: auto 0px;
-  height: 70%;
-  width: 30%;
+  height: 90%;
+  width: 90%;
 }
