@@ -1,9 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import KillkistKreydy from './KillkistKreydy'
-import RaggedRobin from './RaggedRobin'
-
 function Main () {
   return (
     <React.Fragment>
@@ -12,9 +9,10 @@ function Main () {
         <div className="entry-frames">
         </div>
       </Link>
-      <KillkistKreydy />
-      <RaggedRobin />
-
+      <Link to="/raggedrobin">
+        <div className="entry-frames">
+        </div>
+      </Link>
     </React.Fragment>
   )
 }
