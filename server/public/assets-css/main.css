@@ -13,16 +13,21 @@ html {
 h1 {
   font-family: 'Roboto Mono', monospace;
 }
+a {
+  color:inherit;
+  text-decoration: none;
+}
 .main-container {
   width: 1080px;
   height: 720px;
   margin: 0px auto;
+  padding-top: 50px;
   display: flex;
   flex-direction: row;
 }
 .entry-frames {
-  background-color: lightblue;
   margin: auto 0px;
   height: 90%;
   width: 90%;
+  border: .2px solid violet;
 }
