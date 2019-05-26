@@ -4,7 +4,7 @@
   font-family: 'Roboto Mono', monospace;
   background-color: rgba(0, 0, 0, 1);
   color: rgba(80, 255, 255, 1);
-  font-size: 7.2pt;
+  font-size: .6rem;
 }
 @font-face {
   font-family: 'Roboto Mono', monospace;
@@ -19,7 +19,7 @@
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  padding: 50px;
+  padding: 50px 100px;
   color: rgba(0, 0, 0, .5);
   background-color: black;
   position: fixed;
@@ -30,13 +30,13 @@ section.priestesshaslanded:active {
   display: none;
 }
 .killkistbody {
-  line-height: 1.5rem;
+  line-height: .75rem;
   position: relative;
 }
 .kkbody {
   display: flex;
   max-width: 100%;
-  padding: 20px;
+  padding: 2rem;
 }
 /* ////  textual  //// */
 
@@ -48,14 +48,12 @@ section.priestesshaslanded:active {
 .kkbody p {
   justify-content: space-between;
   text-align: justify;
-  letter-spacing: 1.1rem;
-  font-weight: 700;
+  letter-spacing: .5rem;
+  font-weight: 600;
 }
-/* <span id="edgeblckl"></span> */
 #edgeblckl {
   color: rgba(0, 0, 0, 1);
 }
-/* <span class="kreydy"></span> */
 .kreydy {
   color: rgba(255, 255, 255, .95);
 }
