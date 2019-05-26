@@ -46,9 +46,9 @@ export default class KillkistKreydy extends React.Component {
             {/* Senteens de Milliere where the person goes to the forest. These millions of people will visit France as a result of these high-profile events. Grove, Dance Le Lever. UKRAINE? En polonnese, les polonais ont les rives de lisha. S'ohodni and sit in the restaurants of de Sushi, je suis le sac! je dors deux! mon beryour ts fethiye apple mouse clothes. incense or metanome! solemn dance! softening in the mouth! channel de scenery! I feel like a terrible circle of  lesbians that attracts all the women who are saved by the leur of the Nazi. Caliphate Mars, Kilkist Creedy */}
           </section>
           <section className="footer">
-            <audio id="fnaudio" autoPlay controls alt="playing this will let you listen to the entirety of killkist kreydy, enjoy!">
+            <audio id="fnaudio" autoPlay controls alt="playing this will let you listen to the entirety of killkist kreydy,     enjoy!">
               <source src="./assets/killkist_kreydy_kreyyd.mp3" type="audio/mp3"></source>
-      Your browser isn&apos;t invited for super fun audio time.
+              Your browser isn&apos;t invited for super fun audio time.
             </audio>
           </section>
         </div>
