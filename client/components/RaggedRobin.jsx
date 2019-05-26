@@ -3,7 +3,7 @@ import React from 'react'
 class RaggedRobin extends React.Component {
   render () {
     return (
-      <React.Fragment>
+      <React.Fragment className="ragged-robin">
         {/* <div><h2>renders RaggedRobbin</h2></div> */}
         <header>
           <div className="rr-container980">
