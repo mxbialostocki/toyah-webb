@@ -60,13 +60,13 @@ class RaggedRobin extends React.Component {
                 <h4>Robin&sol;&sol;</h4>
                 <p className="rr-right"><span>Better than the LT though, not so bright</span></p>
                 <p className="rr-right"><span>In this form there is both ...&#9679; &#9679; and absence. Invisible sentences do exist</span></p>
-                <h5 className="rr-right">&period;&period;&period;&period;&period;&period;&period;&period;&period;&period;&period;&period;&period;&period;&period;&period;&period;&period;&period;&period;</h5>
+                <h5 className="rr-right">........................................</h5>
                 <p><span>A dream where it all shrinks to a pinhole</span></p>
                 <p><span>Or is it the other way around?</span></p>
                 <p><span>The pinhole is a spot of Language caught between two slats and escaping</span></p>
                 <p className="rr-right"><span>Who is telling me?</span></p>
                 <p><span>How many people have to tell a true story before it becomes true?</span></p>
-                <h5 className="rr-left">&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;&lowbar;</h5>
+                <h5 className="rr-left">________________________________________</h5>
                 <p><span>The whole experience of assimilation is dizzy</span></p>
               </section>
             </div>

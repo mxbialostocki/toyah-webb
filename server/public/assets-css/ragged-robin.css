@@ -92,6 +92,11 @@
 
 /* acti II doubleye */
 
+.rr-descend {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, .3);
+}
+
 .rr-acti p {
   z-index: 1;
   opacity: 0.1;
@@ -203,13 +208,15 @@
 }
 .rr-innerchurch {
   letter-spacing: 1rem;
+  color: rgba(255, 255, 255, .7);
 }
 .rr-outerchurch {
   color: red;
 }
 .rr-poemi .deci {
   text-align: right;
-  font-size: 1.6rem;
+  color: whitesmoke;
+  font-size: 2.5rem;
   letter-spacing: 2rem;
 }
 .rr-decii {
