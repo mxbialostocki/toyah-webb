@@ -1,0 +1,60 @@
+{
+  "name": "toyah-webb",
+  "version": "1.0.0",
+  "description": "A creative website to showcase poetry by Toyah Webb.",
+  "main": "index.js",
+  "scripts": {
+    "client": "webpack-dev-server --hot --inline",
+    "dev": "nodemon server & webpack --watch",
+    "server": "node server",
+    "start": "webpack && node server",
+    "test": "jest --watchAll"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxbialostocki/toyah-webb.git"
+  },
+  "keywords": [
+    "poetry",
+    "nz-poetry",
+    "toyah-webb",
+    "mxbialostocki"
+  ],
+  "author": "mxbialostocki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxbialostocki/toyah-webb/issues"
+  },
+  "homepage": "https://github.com/mxbialostocki/toyah-webb#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "nodemon": "^1.19.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.7.1",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}

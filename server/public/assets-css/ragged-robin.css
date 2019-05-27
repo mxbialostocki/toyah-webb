@@ -1,0 +1,248 @@
+/* code written by @mxbialostocki // www.mattbialostocki.com */
+/* Ragged Robin text written by Toyah Webb */
+.ragged-robin {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  color: white;
+}
+@font-face {
+  font-family: 'IBM Plex Mono', monospace;
+  src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:200,300,400,500,600,700");
+}
+.rr-container980 {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.rr-container980 .actii {
+  border-left: .5px solid rgb(255,255,255);
+  border-right: .5px solid rgb(255,255,255);
+}
+/* typography */
+.ragged-robin h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.ragged-robin h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding: 1rem 0;
+}
+.ragged-robin .acti h2 {
+  padding-top: 0;
+}
+.ragged-robin h3 {
+  text-align: center;
+}
+.ragged-robin h4,
+.ragged-robin p {
+  text-align: left;
+  padding: 0.5rem 0rem;
+}
+.rr-right {
+  text-align: right;
+}
+.rr-left {
+  text-align: left;
+}
+.ragged-robin a {
+  text-decoration: none;
+  color: inherit;
+}
+.ragged-robin h5 {
+  text-transform: uppercase;
+}
+
+/* header */
+
+.ragged-robin header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 3rem;
+}
+.rr-cheeks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.rr-cheek {
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  margin: 0 2rem;
+  background: radial-gradient(circle at 4rem 4rem, rgb(255,0,0), rgb(139,0,0));
+}
+.rr-poemi {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 80%;
+}
+
+.rr-acti,
+.rr-actii,
+.rr-actiii,
+.rr-activ {
+  padding: 3rem 5rem;
+  margin-top: 2rem;
+}
+
+/* acti II doubleye */
+
+.rr-descend {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, .3);
+}
+
+.rr-acti p {
+  z-index: 1;
+  opacity: 0.1;
+  top: -100%;
+  overflow: hidden;
+  color: white;
+  background: -webkit-linear-gradient(rgb(255,255,255), rgb(255,255,255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rr-acti p:hover {
+  transform: top 400ms 4s ease-in-out;
+  top: 0;
+  opacity: 1;
+  color: red;
+  background: -webkit-linear-gradient(rgb(255,0,0), rgb(50,0,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rr-acti span {
+  opacity: 0.1;
+  color: white;
+  background: -webkit-linear-gradient(rgb(255,255,255), rgb(255,255,255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.rr-acti span:hover {
+  opacity: 1;
+  color: red;
+  background: -webkit-linear-gradient(rgb(255,0,0), rgb(50,0,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.rr-actilines {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+/* actii OOO Tripleoh */
+.rr-actii {
+  height: 42rem;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
+  margin: 2rem auto;
+  color: rgb(255,255,255);
+  font-weight: lighter;
+  line-height: 1.2;
+}
+.rr-actii h2 {
+  padding-top: 2rem;
+}
+.rr-actii h5 span.small {
+  font-size: 1rem;
+}
+.rr-actii h5 span.medium {
+  font-size: 1.5rem;
+}
+.rr-actii h5 span.large {
+  font-size: 2rem;
+}
+.rr-actii h5 span.xlarge {
+  font-size: 2.5rem;
+}
+.rr-actii h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.rr-actii h4 span,
+.rr-actii p span {
+  background: -webkit-linear-gradient(rgb(255,255,255), rgb(255,255,255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.rr-actii h4 span:hover,
+.rr-actii p span:hover {
+  background: -webkit-linear-gradient(rgb(255,255,255), rgb(255,255,255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* actiii Dectasee */
+.rr-actiii {
+  line-height: 2.2rem;
+  font-size: 1.1rem;
+  letter-spacing: 1.4rem;
+}
+.rr-actiii h2 {
+  letter-spacing: 0;
+}
+.rr-priestess .right {
+  font-size: 2rem;
+}
+.rr-priestess h3 {
+  font-size: 1rem;
+  letter-spacing: 0rem;
+}
+.rr-innerchurch {
+  letter-spacing: 1rem;
+  color: rgba(255, 255, 255, .7);
+}
+.rr-outerchurch {
+  color: red;
+}
+.rr-poemi .deci {
+  text-align: right;
+  color: whitesmoke;
+  font-size: 2.5rem;
+  letter-spacing: 2rem;
+}
+.rr-decii {
+  display: none;
+}
+/* activ totep */
+.rr-activ {
+  padding-bottom: 2rem;
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+}
+.rr-activ h2 {
+  padding-bottom: 2rem;
+}
+.rr-activ span {
+  z-index: 1;
+  opacity: 0.1;
+  top: -100%;
+  overflow: hidden;
+  color: white;
+  font-size: 1rem;
+}
+.rr-activ span:hover {
+  transform: all 1200ms 1200ms ease-in-out;
+  top: 0;
+  opacity: 1;
+  color: red;
+  font-size: 1.3rem;
+}
